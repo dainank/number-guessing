@@ -1,4 +1,27 @@
 # Number Guessing Game
+A very simple guessing game in Python, one of the many exercises from the book [`python-workout`](https://www.manning.com/books/python-workout) by *Reuven M. Lerner*. Exercises will quickly get more complex than this!
+
+## Requirements
+- a void function `guessing_game` with no parameters
+- choose random number between 0 and 100
+- user guesses number with hints on error
+- once number is guessed, application exits, otherwise it loops again
+
+## Missing Ideas
+> Some additional things I could've done in the implementation.
+
+1. Add a prompt for the user, to personlize the experience:
+```py
+name = input('Enter your name: ')
+print(f'Hello, {name}!')
+```
+
+2. Don't try user input with the `while = true`:
+```py
+# Walrus Operator
+while s := input('Enter thoughts:'):
+   print(f'Your thoughts are: {s}')
+```
 
 ## Key Concepts:
 |   Concept   	|                             What is it?                            	|                             Example                            	|               To learn more               	|
