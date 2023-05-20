@@ -1,5 +1,6 @@
 # Number Guessing Game
 
+## Key Concepts:
 |   Concept   	|                             What is it?                            	|                             Example                            	|               To learn more               	|
 |:-----------:	|:------------------------------------------------------------------:	|:--------------------------------------------------------------:	|:-----------------------------------------:	|
 | random      	| Module for generating random numbers and selecting random elements 	| `number = random.randint(1, 100)`                                	| http://mng.bz/Z2wj                        	|
